@@ -191,7 +191,7 @@ So $\\lambda_1 = 5$ and $\\lambda_2 = 2$.
   id: 'lie-derivative',           // URL-friendly, no spaces
   title: 'Some Lie Derivative computations',       // Display title
   excerpt: 'Differentiating forms, metrics, and more!', // Shown in note cards
-  category: 'Lie stuff',           // Must match a category id
+  category: 'calculus',           // Must match a category id
   readTime: '10 min',             // Estimated reading time
   date: '2026-02-02',             // YYYY-MM-DD format
   tags: ['Lie derivative', 'one form'],         // For search/filtering
@@ -200,14 +200,15 @@ So $\\lambda_1 = 5$ and $\\lambda_2 = 2$.
   previewLength: 3,               // Paragraphs before paywall (0 = no paywall)
   content: `                      // Your note content
 # Heading
-
- \begin{align*}
-L_v(dx \otimes dx) &= (L_v\, dx) \otimes dx + dx \otimes (L_v\, dx) \\
-&= f'(x)\, dx \otimes dx + dx \otimes f'(x)\, dx \\
-&= 2 f'(x)\, dx \otimes dx
-\end{align*} 
+$$\\begin{align*}
+L_v(dx \\otimes dx) &= (L_v\\, dx) \\otimes dx + dx \\otimes (L_v\\, dx) \\\\
+&= f'(x)\\, dx \\otimes dx + dx \\otimes f'(x)\\, dx \\\\
+&= 2 f'(x)\\, dx \\otimes dx
+\\end{align*}
+$$
+  
   `,
-},
+  },
   {
     id: 'second-order-odes',
     title: 'Solving Second-Order ODEs',
